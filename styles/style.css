@@ -787,7 +787,7 @@ ul li {
 		font-size: 18px;
 	}
 	.job {
-		flex-direction: column;
+		flex-direction: column-reverse;
 		gap: 15px 0;
 	}
 	.job__content,
@@ -1025,11 +1025,9 @@ ul li {
 		width: 100%;
 		position: fixed;
 		top: 0;
-		bottom: 0;
 		left: 0;
 		color: #000;
 		opacity: 0.85;
-		height: 100vh;
 		z-index: 12;
 	}
 
@@ -1187,6 +1185,9 @@ ul li {
 	}
 	.more {
 		display: block;
+	}
+	.header__container {
+		margin: 0;
 	}
 }
 
