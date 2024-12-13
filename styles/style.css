@@ -496,6 +496,12 @@ ul li {
 .map__text {
 	color: #ebebeb;
 }
+.map__text a {
+	transition: all 0.3s ease-in-out;
+}
+.map__text a:hover {
+	color: #3b93b7;
+}
 .map__text p {
 	font-size: 25px;
 }
