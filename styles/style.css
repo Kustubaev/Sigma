@@ -409,6 +409,17 @@ ul li {
 	min-width: 400px;
 	max-width: 410px;
 	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+.company:hover {
+	background-color: #3b93b7;
+}
+
+.company:hover .company__name {
+	color: white;
+}
+.company:hover .company__link {
+	color: white;
 }
 .company__top {
 	height: 70%;
@@ -435,6 +446,7 @@ ul li {
 	font-size: 1.2rem;
 	color: #212121;
 	text-align: center;
+	transition: all 0.3s ease-in-out;
 }
 .company__link-box {
 	display: block;
@@ -443,7 +455,8 @@ ul li {
 }
 .company__link {
 	color: #3b93b7;
-	font-size: 1rem;
+	font-size: 1.2rem;
+	transition: all 0.3s ease-in-out;
 }
 .company-logo {
 	width: 90%;
@@ -459,6 +472,12 @@ ul li {
 	font-weight: 700;
 	margin-bottom: 200px;
 	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.request:hover {
+	background-color: #fff;
+	color: #3b93b7;
 }
 .map {
 	width: 100%;
@@ -1188,6 +1207,10 @@ ul li {
 	}
 	.header__container {
 		margin: 0;
+	}
+	.company__link,
+	.company__name {
+		font-size: 18px;
 	}
 }
 
