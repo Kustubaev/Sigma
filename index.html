@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Сигма</title>
+		<link rel="stylesheet" href="styles/style.css" />
+		<link rel="stylesheet" href="lib/swiper/swiper.min.css" />
+		<link rel="stylesheet" href="lib/venobox/venobox.min.css" />
+	</head>
+	<body>
+		<header id="header">
+			<div class="header__container container">
+				<div class="header">
+					<a href="./index.html">
+						<img
+							src="./images/headerLogo.svg"
+							alt="sigma_logo"
+							class="logo-header"
+						/>
+					</a>
+					<ul class="header__menu">
+						<li class="header__menu__item">
+							<a href="./index.html">главная</a>
+						</li>
+						<li class="header__menu__item">
+							<a href="./index.html#service">услуги</a>
+						</li>
+						<li class="header__menu__item"><a href="#contacts">контакты</a></li>
+						<li class="header__menu__item">
+							<a href="./index.html#about">о нас</a>
+						</li>
+						<li class="header__menu__item">
+							<a href="./job.html">работа у нас</a>
+						</li>
+						<li class="header__menu__item">
+							<a href="./index.html#link">заявка</a>
+						</li>
+					</ul>
+				</div>
+				<div class="header-mobile">
+					<nav class="navbar">
+						<div class="navbar-container container">
+							<input type="checkbox" name="" id="" />
+							<div class="hamburger-lines">
+								<span class="line line1"></span>
+								<span class="line line2"></span>
+								<span class="line line3"></span>
+							</div>
+							<ul class="menu-items">
+								<li><a href="./index.html">Главная</a></li>
+								<li><a href="./index.html#service">Услуги</a></li>
+								<li><a href="#contacts">Контакты</a></li>
+								<li><a href="./index.html#about">О нас</a></li>
+								<li><a href="./job.html">Работа у нас</a></li>
+								<li><a href="./index.html#link">Заявка</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<section class="slider" id="slider">
+			<div class="container" id="container-slider">
+				<div class="swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="card">
+								<div class="card__top card__top-slider">
+									<div class="slider__fire-card">
+										<div class="slider__card-left-block">
+											<div class="slider__card-text-block">
+												<img
+													src="./images/fire.png"
+													class="mobile-slider-icon"
+													alt="image"
+												/>
+												<span class="slider__card-text-title">
+													Противпожарная <br />
+													безопаность
+												</span>
+												<br />
+												<span class="slider__card-text-subtitle">
+													Мы пердоставляем услуги <br />
+													по установке и обслуживанию <br />
+													противопожарных систем
+												</span>
+											</div>
+											<div class="slider__card-button-block">
+												<button class="slider__button">
+													<a href="#link" id="orangeText">Связаться с нами</a>
+												</button>
+											</div>
+										</div>
+										<div class="slider__card-right-block">
+											<img src="./images/fire.png" alt="image" />
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="card">
+								<div class="slider__fire-card blackBG">
+									<div class="slider__card-left-block">
+										<div class="slider__card-text-block">
+											<img
+												src="./images/camera.png"
+												class="mobile-slider-icon"
+												alt="image"
+											/>
+											<span class="slider__card-text-title">
+												Системы <br />
+												безопаности
+											</span>
+											<br />
+											<span class="slider__card-text-subtitle">
+												Мы пердоставляем услуги <br />
+												по установке и обслуживанию систем <br />
+												безопасности: камеры наблюдения, <br />
+												сигнализации и т.д.
+											</span>
+										</div>
+										<div class="slider__card-button-block">
+											<button class="slider__button">
+												<a href="#link" id="blackText">Связаться с нами</a>
+											</button>
+										</div>
+									</div>
+									<div class="slider__card-right-block">
+										<img src="./images/camera.png" alt="image" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="card">
+								<div class="slider__fire-card blueBG">
+									<div class="slider__card-left-block">
+										<div class="slider__card-text-block">
+											<img
+												src="./images/shield.png"
+												class="mobile-slider-icon"
+												alt="image"
+											/>
+											<span class="slider__card-text-title">
+												Физическая <br />
+												охрана
+											</span>
+											<br />
+											<span class="slider__card-text-subtitle">
+												Мы пердоставляем услуги <br />
+												по физической охране объектов <br />
+												и мероприятий
+											</span>
+										</div>
+										<div class="slider__card-button-block">
+											<button class="slider__button">
+												<a href="#link" id="blueText">Связаться с нами</a>
+											</button>
+										</div>
+									</div>
+									<div class="slider__card-right-block">
+										<img src="./images/shield.png" alt="image" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-pagination" id="swiper-pagination"></div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="title" id="about">СФЕРЫ НАШЕЙ РАБОТЫ</div>
+				<div class="cards">
+					<div class="card card-spheres">
+						<div class="card__top card__top-spheres">
+							<img
+								src="./images/shield.png"
+								class="card__bottom-spheres-icons"
+								alt="image"
+							/>
+						</div>
+						<div
+							class="card__bottom card__bottom-spheres card__bottom-spheres-security"
+						>
+							<span
+								>Физическая <br />
+								охрана</span
+							>
+						</div>
+					</div>
+					<div class="card card-spheres">
+						<div class="card__top card__top-spheres">
+							<img
+								src="./images/fire.png"
+								class="card__bottom-spheres-icons"
+								alt="image"
+							/>
+						</div>
+						<div
+							class="card__bottom card__bottom-spheres card__bottom-spheres-fire"
+						>
+							Противопожарная <br />
+							охрана
+						</div>
+					</div>
+					<div class="card card-spheres">
+						<div class="card__top card__top-spheres">
+							<img
+								src="./images/camera.png"
+								class="card__bottom-spheres-icons"
+								alt="image"
+							/>
+						</div>
+						<div
+							class="card__bottom card__bottom-spheres card__bottom-spheres-digital"
+						>
+							Системы <br />
+							безопасности
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="title">НАШИ ПРЕЙМУЩЕСТВА</div>
+				<div class="advantages">
+					<div class="advantage">
+						<div class="advantage__icon-section">
+							<img
+								src="./images/miniShield.png"
+								class="advantage__icon"
+								alt="digital"
+							/>
+						</div>
+						<div class="advantage__title">Высокие стандарты безопасности</div>
+					</div>
+					<div class="advantage">
+						<div class="advantage__icon-section">
+							<img
+								src="./images/reaction.png"
+								class="advantage__icon"
+								alt="digital"
+							/>
+						</div>
+						<div class="advantage__title">Быстрое реагирование на угрозы</div>
+					</div>
+					<div class="advantage">
+						<div class="advantage__icon-section">
+							<img
+								src="./images/certified.png"
+								class="advantage__icon"
+								alt="digital"
+							/>
+						</div>
+						<div class="advantage__title">Современные технологии</div>
+					</div>
+					<div class="advantage">
+						<div class="advantage__icon-section">
+							<img
+								src="./images/wifi.png"
+								class="advantage__icon"
+								alt="digital"
+							/>
+						</div>
+						<div class="advantage__title">Удалённый контроль безопасности</div>
+					</div>
+				</div>
+				<div class="advantages-mobile">
+					<div class="advantage-mobile">
+						<img
+							src="./images/reaction.png"
+							alt="image"
+							class="advantage-mobile__icon"
+						/>
+						<div class="advantage-mobile__text">
+							Быстрое реагирование <br />
+							на угрозы
+						</div>
+					</div>
+					<div class="advantage-mobile">
+						<img
+							src="./images/wifi.png"
+							alt="image"
+							class="advantage-mobile__icon"
+						/>
+						<div class="advantage-mobile__text">
+							Удалённый контроль безопасности
+						</div>
+					</div>
+					<div class="advantage-mobile">
+						<img
+							src="./images/certified.png"
+							alt="image"
+							class="advantage-mobile__icon"
+						/>
+						<div class="advantage-mobile__text">Современные технологии</div>
+					</div>
+					<div class="advantage-mobile">
+						<img
+							src="./images/shield.png"
+							alt="image"
+							class="advantage-mobile__icon"
+						/>
+						<div class="advantage-mobile__text">
+							Высокие стандарты безопасности
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="title" id="service">НАШИ УСЛУГИ</div>
+				<div class="services">
+					<div class="card">
+						<div class="card__top">
+							<img
+								class="card__top-image"
+								src="./images/officer.png"
+								alt="image"
+							/>
+						</div>
+						<div class="card__bottom">
+							<a href="#link">
+								<span>
+									Постовая <br />
+									охрана
+								</span>
+							</a>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card__top">
+							<img
+								class="card__top-image"
+								src="./images/cameraService.png"
+								alt="image"
+							/>
+						</div>
+						<div class="card__bottom">
+							<a href="#link">
+								<span>
+									Установка <br />
+									видеонаблюдения
+								</span>
+							</a>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card__top">
+							<img
+								class="card__top-image"
+								src="./images/alarm.png"
+								alt="image"
+							/>
+						</div>
+						<div class="card__bottom">
+							<a href="#link">
+								<span>
+									Установка охранной <br />
+									сигнализации
+								</span>
+							</a>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card__top">
+							<img
+								class="card__top-image"
+								src="./images/security.png"
+								alt="image"
+							/>
+						</div>
+						<div class="card__bottom">
+							<a href="#link">
+								<span>
+									Постовая вооружённая <br />
+									охрана
+								</span>
+							</a>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card__top">
+							<img
+								class="card__top-image"
+								src="./images/fireAlarm.png"
+								alt="image"
+							/>
+						</div>
+						<div class="card__bottom">
+							<a href="#link">
+								<span>
+									Установка пожарной <br />
+									сигнализации и систем <br />
+									пожаротушения
+								</span>
+							</a>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card__top">
+							<img
+								class="card__top-image"
+								src="./images/policeCar.png"
+								alt="image"
+							/>
+						</div>
+						<div class="card__bottom">
+							<a href="#link">
+								<span>
+									Пульт центрального <br />
+									наблюдения с выездом <br />
+									экипажа
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="title">НАШ ОПЫТ БОЛЕЕ <span>10 ЛЕТ</span></div>
+				<div class="experience">
+					<div class="experience__logo-block">
+						<img
+							class="experience__logo"
+							src="./images/tenYearsCamera.png"
+							alt="image"
+						/>
+					</div>
+					<span class="more">Узнать больше?</span>
+					<div class="experience__text">
+						<span class="experience__text-title"
+							>10 лет на страже
+							<span class="blue">вашей</span> безопасности</span
+						>
+						<br /><br />
+						Наш профессиональный коллектив, состоящий из
+						высококвалифицированных<br />
+						сотрудников, всегда готов обеспечить надежную защиту вашей
+						собственности, бизнеса и близких. Мы <br />
+						используем самые современные технологии и индивидуальный подход к
+						каждому клиенту. <br />
+						За 10 лет работы мы зарекомендовали себя как надежный партнер <br />
+						которому доверяют как частные лица, так и крупные организации.
+						<br />
+						Мы постоянно совершенствуем наши услуги, внедряем инновации <br />
+						и стремимся предоставлять клиентам самый высокий уровень сервиса
+						<br /><br />
+
+						<span class="blue">
+							Доверьте свою безопасность профессионалам. c нами вы можете быть
+							уверены в своем спокойствии!
+						</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--<section>-->
+		<!--    <div class="container">-->
+		<!--        <div class="title">ОТЗЫВЫ И РЕКОМЕНДАЦИИ</div>-->
+		<!--        <div class="reviews">-->
+		<!--            <div class="review">-->
+		<!--                <a href="./images/sigmaCard.png" class="image-links" data-gall="gallery01">-->
+		<!--                    <img src="./images/sigmaCard.png" alt="alt" class="review_image">-->
+		<!--                </a>-->
+		<!--            </div>-->
+		<!--            <div class="review">-->
+
+		<!--            </div>-->
+		<!--            <div class="review">-->
+
+		<!--            </div>-->
+		<!--            <div class="review">-->
+
+		<!--            </div>-->
+		<!--            <div class="review">-->
+
+		<!--            </div>-->
+		<!--            <div class="review">-->
+
+		<!--            </div>-->
+		<!--            <div class="review">-->
+
+		<!--            </div>-->
+		<!--            <div class="review">-->
+
+		<!--            </div>-->
+		<!--        </div>-->
+		<!--    </div>-->
+		<!--</section>-->
+		<section>
+			<div class="container">
+				<div class="title">НАМ ДОВЕРЯЮТ</div>
+				<div class="companies">
+					<div class="company">
+						<a
+							class="company__link-box"
+							href="https://www.cemix.ru"
+							target="_blank"
+						>
+							<div class="company__top">
+								<img
+									class="company__logo"
+									src="./images/cemix.png"
+									alt="image"
+								/>
+							</div>
+							<div class="company__bottom">
+								<span class="company__name">Cemix</span>
+
+								<span class="company__link">https://www.cemix.ru</span>
+							</div>
+						</a>
+					</div>
+					<div class="company">
+						<a
+							class="company__link-box"
+							href="https://www.lb-minerals.cz/en"
+							target="_blank"
+						>
+							<div class="company__top minerals">
+								<img
+									class="company__logo"
+									src="./images/lbminerals.png"
+									alt="image"
+								/>
+							</div>
+							<div class="company__bottom">
+								<span class="company__name">LB MINERALS</span>
+								<span class="company__link">https://www.lb-minerals.cz/en</span>
+							</div>
+						</a>
+					</div>
+					<div class="company">
+						<a
+							class="company__link-box"
+							href="http://kaolinzhl.ru"
+							target="_blank"
+						>
+							<div class="company__top plast">
+								<img
+									class="company__logo"
+									src="./images/plast.png"
+									alt="image"
+								/>
+							</div>
+							<div class="company__bottom">
+								<span class="company__name">ПЛАСТ РИФЕЙ</span>
+								<span class="company__link">http://kaolinzhl.ru</span>
+							</div>
+						</a>
+					</div>
+					<div class="company">
+						<a
+							class="company__link-box"
+							href="https://magkmusic.com"
+							target="_blank"
+						>
+							<div class="company__top glinka">
+								<img
+									class="company__logo"
+									src="./images/glinka.png"
+									alt="image"
+								/>
+							</div>
+							<div class="company__bottom">
+								<span class="company__name"
+									>ГБОУ ВО ЧО «МаГК имени М.И. Глинки»</span
+								>
+								<span class="company__link">https://magkmusic.com</span>
+							</div>
+						</a>
+					</div>
+					<div class="company">
+						<a
+							class="company__link-box"
+							href="https://minobrnauki.gov.ru"
+							target="_blank"
+						>
+							<div class="company__top minoborona">
+								<img
+									class="company__logo"
+									src="./images/minoborona.png"
+									alt="image"
+								/>
+							</div>
+							<div class="company__bottom">
+								<span class="company__name">Минобрнауки РФ</span>
+								<span class="company__link">https://minobrnauki.gov.ru</span>
+							</div>
+						</a>
+					</div>
+					<div class="company">
+						<a
+							class="company__link-box"
+							href="https://minzdrav.gov.ru"
+							target="_blank"
+						>
+							<div class="company__top minzdrav">
+								<img
+									class="company__logo"
+									src="./images/minzdrav.png"
+									alt="image"
+								/>
+							</div>
+							<div class="company__bottom">
+								<span class="company__name">Минздрав РФ</span>
+								<span class="company__link">https://minzdrav.gov.ru</span>
+								>
+							</div>
+						</a>
+					</div>
+					<div class="company">
+						<a
+							class="company__link-box"
+							href="https://www.magnitogorsk.ru"
+							target="_blank"
+						>
+							<div class="company__top administration">
+								<img
+									class="company__logo administrationSizes"
+									src="./images/administraiton.png"
+									alt="image"
+								/>
+							</div>
+							<div class="company__bottom">
+								<span class="company__name"
+									>Администрация <br />
+									Магнитогорска</span
+								>
+								<span class="company__link">https://www.magnitogorsk.ru</span>
+							</div>
+						</a>
+					</div>
+					<div class="company">
+						<a
+							class="company__link-box"
+							href="https://antares11.ru/"
+							target="_blank"
+						>
+							<div class="company__top antares">
+								<img
+									class="company__logo"
+									src="./images/antares.png"
+									alt="image"
+								/>
+							</div>
+							<div class="company__bottom">
+								<span class="company__name">Антарес</span>
+								<span class="company__link">https://antares11.ru/</span>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<a
+					class="link"
+					href="https://forms.yandex.ru/u/66c49f7a84227c00dcede176/"
+					><button class="request" id="link">ЗАПОЛНИТЬ ЗАЯВКУ</button></a
+				>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="map">
+					<div class="map__iframe-wrapper">
+						<iframe
+							src="https://yandex.ru/map-widget/v1/?um=constructor%3A1d9f8c9ca2989cb9a9a167df734e944e12344e94e8387c1ddf708f1bf93042d1&amp;source=constructor"
+							width="467"
+							height="240"
+							frameborder="0"
+						></iframe>
+					</div>
+					<div class="map__text" id="contacts">
+						<p>контакты</p>
+						<span><a href="tel:+79630960507">+7 963 096-05-07</a></span
+						><br />
+						<span><a href="mailto:mail@htmlacademy.ru">oo-sigma@ya.ru</a></span
+						><br />
+						<span class="adress"
+							>Челябинская область, г. Магнитогорск, <br />
+							пр-кт Ленина, д. 89, офис 709</span
+						>
+					</div>
+					<ul class="map__list">
+						<li class="map__item">
+							<a class="map__link" href="./index.html#service">Главная</a>
+						</li>
+						<li class="map__item">
+							<a class="map__link" href="./index.html#service">Услуги</a>
+						</li>
+						<li class="map__item">
+							<a class="map__link" href="#contacts">Контакты</a>
+						</li>
+						<li class="map__item">
+							<a class="map__link" href="./index.html#about">О нас</a>
+						</li>
+						<li class="map__item">
+							<a class="map__link" href="./job.html">Работа у нас</a>
+						</li>
+						<li class="map__item">
+							<a class="map__link" href="./index.html#link">Заявка</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<script src="lib/swiper/swiper.min.js"></script>
+		<script src="lib/venobox/venobox.min.js"></script>
+		<script src="scripts/main.js"></script>
+	</body>
+</html>

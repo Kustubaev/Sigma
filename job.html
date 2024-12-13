@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Сигма</title>
+		<link rel="stylesheet" href="styles/style.css" />
+		<link rel="stylesheet" href="lib/swiper/swiper.min.css" />
+		<link rel="stylesheet" href="lib/venobox/venobox.min.css" />
+	</head>
+	<body>
+		<header id="header">
+			<div class="header__container container">
+				<div class="header">
+					<a href="./index.html">
+						<img
+							src="./images/headerLogo.svg"
+							alt="sigma_logo"
+							class="logo-header"
+						/>
+					</a>
+					<ul class="header__menu">
+						<li class="header__menu__item">
+							<a href="./index.html">главная</a>
+						</li>
+						<li class="header__menu__item">
+							<a href="./index.html#service">услуги</a>
+						</li>
+						<li class="header__menu__item"><a href="#contacts">контакты</a></li>
+						<li class="header__menu__item">
+							<a href="./index.html#about">о нас</a>
+						</li>
+						<li class="header__menu__item">
+							<a href="./job.html">работа у нас</a>
+						</li>
+						<li class="header__menu__item">
+							<a href="./index.html#link">заявка</a>
+						</li>
+					</ul>
+				</div>
+				<div class="header-mobile">
+					<nav class="navbar">
+						<div class="navbar-container container">
+							<input type="checkbox" name="" id="" />
+							<div class="hamburger-lines">
+								<span class="line line1"></span>
+								<span class="line line2"></span>
+								<span class="line line3"></span>
+							</div>
+							<ul class="menu-items">
+								<li><a href="./index.html">Главная</a></li>
+								<li><a href="./index.html#service">Услуги</a></li>
+								<li><a href="#contacts">Контакты</a></li>
+								<li><a href="./index.html#about">О нас</a></li>
+								<li><a href="./job.html">Работа у нас</a></li>
+								<li><a href="./index.html#link">Заявка</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<section>
+			<div class="job">
+				<div class="job__content">
+					<h1 class="job__content-title">РАБОТА У НАС</h1>
+					<p class="job__content-text">Присоединяйтесь к команде профессионалов в охранной организации "Сигма"! Мы ищем ответственных и целеустремленных сотрудников, готовых обеспечить безопасность наших клиентов и их имущества. У нас вы найдете:</p>
+					<ul class="job__content-ul">
+						<li class="job__content-li">
+							<div class="job__content-span">·</div>
+							Конкурентоспособную заработную плату и социальные гарантии
+						</li>
+						<li class="job__content-li">
+							<div class="job__content-span">·</div>
+							Возможности для профессионального роста и обучения
+						</li>
+					</ul>
+					<p class="job__content-text">Если вы готовы к новым вызовам и хотите стать частью надежной команды, заполняйте заявку по ссылке ниже.</p>
+					<p class="job__content-text job__content-text__blue">"Сигма" — это ваш шанс построить успешную карьеру в сфере безопасности!</p>
+					<div class="job__content-box">
+						<button id="manager" class="job__content-box__button active">МЕНЕДЖЕР</button>
+						<button id="security" class="job__content-box__button">ОХРАННИК</button>
+					</div>
+					<a id="request" class="job__content-button" href="https://www.magnitogorsk.ru" target="_blank">ЗАПОЛНИТЬ ЗАЯВКУ</a>
+
+				</div>
+
+				<div class="job__slider" id="container-slider">
+					<div class="swiper job__slider-swiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="card">
+									<div class="card__top card__top-slider">
+										<div class="job__slider-card">
+											<img
+												src="./images/manager.png"
+												class="job__slider-img"
+												alt="image"
+											/>
+											<p class="job__slider-text">ИЩЕМ </br> СПЕЦИАЛИСТОВ</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="card">
+									<div class="card__top card__top-slider">
+										<div class="job__slider-card">
+											<img
+												src="./images/shield.png"
+												class="job__slider-img"
+												alt="image"
+											/>
+											<p class="job__slider-text">
+												СТАНЬ ЧАСТЬЮ ПРОФЕССИОНАЛОВ
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-pagination job-pagination" id="swiper-pagination"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="container">
+				<div class="map">
+					<div class="map__iframe-wrapper">
+						<iframe
+							src="https://yandex.ru/map-widget/v1/?um=constructor%3A1d9f8c9ca2989cb9a9a167df734e944e12344e94e8387c1ddf708f1bf93042d1&amp;source=constructor"
+							width="467"
+							height="240"
+							frameborder="0"
+						></iframe>
+					</div>
+					<div class="map__text" id="contacts">
+						<p>контакты</p>
+						<span><a href="tel:+79630960507">+7 963 096-05-07</a></span
+						><br />
+						<span><a href="mailto:mail@htmlacademy.ru">oo-sigma@ya.ru</a></span
+						><br />
+						<span class="adress"
+							>Челябинская область, г. Магнитогорск, <br />
+							пр-кт Ленина, д. 89, офис 709</span
+						>
+					</div>
+					<ul class="map__list">
+						<li class="map__item">
+							<a class="map__link" href="./index.html#service">Главная</a>
+						</li>
+						<li class="map__item">
+							<a class="map__link" href="./index.html#service">Услуги</a>
+						</li>
+						<li class="map__item">
+							<a class="map__link" href="#contacts">Контакты</a>
+						</li>
+						<li class="map__item">
+							<a class="map__link" href="./index.html#about">О нас</a>
+						</li>
+						<li class="map__item">
+							<a class="map__link" href="./job.html">Работа у нас</a>
+						</li>
+						<li class="map__item">
+							<a class="map__link" href="./index.html#link">Заявка</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<script src="lib/swiper/swiper.min.js"></script>
+		<script src="lib/venobox/venobox.min.js"></script>
+		<script src="scripts/main.js"></script>
+	</body>
+</html>
