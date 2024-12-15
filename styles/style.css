@@ -647,6 +647,10 @@ ul li {
 	flex-direction: column;
 	justify-content: space-between;
 }
+.about__content {
+	aspect-ratio: auto;
+	justify-content: flex-start;
+}
 .job__slider {
 	width: 50%;
 }
@@ -699,6 +703,7 @@ ul li {
 	color: #3b95b8;
 	font-size: 64px;
 	font-weight: 700;
+	text-transform: uppercase;
 }
 .job__content-text {
 	font-size: 20px;
@@ -766,7 +771,78 @@ ul li {
 	background-color: #fff;
 }
 
+.about__content-title {
+	margin-bottom: 40px;
+}
+
+.about__content-text {
+	margin-bottom: 30px;
+}
+
+.about__content-text:last-child {
+	margin-bottom: 0;
+}
+
+.about__content-text__bold {
+	font-weight: 700;
+}
+
+.about__wrapper {
+	width: 50%;
+}
+
+.about__image-box {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(-90deg, #3b93b7 0%, #52bcdd 100%);
+	aspect-ratio: 1.3/1;
+	border-radius: 2rem;
+}
+
+.about__image {
+	width: 75%;
+	aspect-ratio: 4.39/1;
+	object-fit: cover;
+	object-position: center center;
+}
+
+.images {
+	margin: 90px 180px 100px;
+}
+.images__items {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: repeat(2, 1fr);
+	gap: 50px;
+}
+.images__item {
+	width: 100%;
+	background: linear-gradient(-90deg, #3b93b7 0%, #52bcdd 100%);
+	border-radius: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.images__item-first {
+	grid-column: 1 / 3;
+	grid-row: 1 / 3;
+}
+.images__item-second {
+	grid-column: 3 / 5;
+	grid-row: 1 / 2;
+}
+
 @media (max-width: 1635px) {
+	.images__items {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.images__item-first,
+	.images__item-second {
+		grid-column: auto;
+		grid-row: auto;
+	}
 	.map {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
@@ -794,6 +870,13 @@ ul li {
 	}
 }
 @media (max-width: 1200px) {
+	.images__items {
+		grid-template-columns: 100%;
+	}
+	.about__wrapper {
+		width: 100%;
+		margin-bottom: 50px;
+	}
 	.header__container {
 		margin: 0 auto;
 		max-width: 1560px;
@@ -923,6 +1006,9 @@ ul li {
 }
 
 @media (max-width: 768px) {
+	.about__wrapper {
+		margin-bottom: 30px;
+	}
 	.header {
 		padding: 10px;
 	}
@@ -954,7 +1040,8 @@ ul li {
 		height: 10px;
 		margin: 0 5px !important;
 	}
-	.job {
+	.job,
+	.images {
 		margin: 100px 70px;
 	}
 	.job__content {
@@ -1046,6 +1133,16 @@ ul li {
 }
 
 @media (max-width: 450px) {
+	.about__wrapper {
+		margin-bottom: 20px;
+	}
+	.about__content-title {
+		margin-bottom: 20px;
+	}
+
+	.about__content-text {
+		margin-bottom: 15px;
+	}
 	.navbar {
 		width: 100%;
 		position: fixed;
@@ -1065,7 +1162,8 @@ ul li {
 	.header {
 		display: none;
 	}
-	.job {
+	.job,
+	.images {
 		margin: 70px 10px 70px;
 	}
 	.job__content {
